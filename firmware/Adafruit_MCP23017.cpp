@@ -44,6 +44,7 @@ void Adafruit_MCP23017::begin(uint8_t addr) {
   }
   i2caddr = addr;
 
+  WIRE.setSpeed(20000)
   WIRE.begin();
 
   
