@@ -1,7 +1,7 @@
 {
   "name": "Adafruit_RGBLCDShield",
-  "author": "Mumblepins/Adafruit",
+  "author": "Mumblepins/Adafruit/jrubinstein",
   "license": "BSD",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Port of Adafruit RGB LCD Shield Library (https://github.com/adafruit/Adafruit-RGB-LCD-Shield-Library)"
 }
