@@ -44,7 +44,7 @@ void Adafruit_MCP23017::begin(uint8_t addr) {
   }
   i2caddr = addr;
 
-  //WIRE.setSpeed(80000); trying different setSpeed to see if it fixes corruption on the  display
+  WIRE.setSpeed(1700000); trying different setSpeed to see if it fixes corruption on the  display
   WIRE.begin();
 
   
